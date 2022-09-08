@@ -10,9 +10,9 @@
 
 string[] array = { "lol", "pervii", "vtoroi", "asd", "eshe" };
 
-string[] newArray = new string[array.GetLength(0)];
+string[] newArray = new string[array.Length];
 int counter = 0;
-for (int i = 0; i < array.GetLength(0); i++)
+for (int i = 0; i < array.Length; i++)
 {
     if (array[i].Length <= 3)
     {
